@@ -1,0 +1,23 @@
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 35px;
+
+    background: $black;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+
+    color: $white;
+    transition: background-color .2s linear;
+
+    &--subscription{
+        background-color: $lightGray;
+        border-radius: 16px;
+    }
+}

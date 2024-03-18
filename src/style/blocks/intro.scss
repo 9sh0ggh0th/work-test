@@ -1,0 +1,101 @@
+.intro{
+    height: 600px;
+    position: relative;
+}
+
+.intro-preview{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-arrowR{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 2.5%;
+
+
+    width: 2%;
+    height: 10%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.intro-arrowL{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+
+    width: 2.5%;
+    height: 10%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.intro-title{
+    width: 50%;
+
+    line-height: 77.45px;
+    font-size: 64px;
+    color: $white;
+    font-weight: 900;
+
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    z-index: 1;
+
+    &--last{
+        font-weight: 300;
+        top: 100%;
+        left: 0;
+    }
+}
+
+.intro-advertising{
+    font-family: 'inter';
+    padding: 5px 40px;
+    width: 350px;
+    backdrop-filter: blur(200px);
+
+    line-height: 48.41px;
+    font-size: 40px;
+    color: $white;
+    font-weight: 300;
+
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    z-index: 1;
+}
+
+.intro-text{
+    line-height: 24.2px;
+    font-size: 20px;
+    color: $white;
+    font-weight: 400;
+
+    position: absolute;
+    top: 55%;
+    left: 68%;
+    z-index: 1;
+}
+
+.intro-pagination{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+
+    padding: 20px 5px;
+
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    :first-child{
+        background-color: $white;
+    }
+}

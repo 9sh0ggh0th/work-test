@@ -1,0 +1,50 @@
+@import "vars";
+@import "reset";
+
+body{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background-color: $white;
+    font-size: 18px;
+    color: $lightBlack;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/btn";
+@import "blocks/page";
+@import "blocks/container";
+@import "blocks/main";
+@import "blocks/footer";
+@import "blocks/intro";
+@import "blocks/achvmnt";
+@import "blocks/products";
+@import "blocks/pagination";
+@import "blocks/subscription";
+@import "blocks/reviews";
+@import "blocks/line";
+
+
+
+
+
+

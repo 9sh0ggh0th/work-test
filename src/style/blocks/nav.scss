@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_item {
+    position: relative;
+    margin-right: 30px;
+}
+
+.nav_link{
+    display: block;
+
+    padding: 10px 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    color: lighten($black, 80%);
+    text-decoration: none;
+    line-height: 1.2;
+
+    &--menu{
+        color: inherit;
+    }
+
+    &--footer{
+        padding: 10px 0;
+    }
+}

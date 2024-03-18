@@ -1,0 +1,17 @@
+.pagination{
+    display: flex;
+    align-items: center;
+}
+
+.pagination-arrow{
+    cursor: pointer;
+
+    padding: 0 15px;
+    width: auto;
+    height: auto;
+}
+
+.pagination-page{
+    padding: 0 10px;
+    font-size: 22px;
+}

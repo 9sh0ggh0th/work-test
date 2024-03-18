@@ -1,0 +1,59 @@
+.footer{
+    display: flex;
+    background-color: $lightBlack;
+    color: $lightGray;
+    margin-top: auto;
+
+    font-family: 'poppins';
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block{
+    width: 20%;
+    padding: 30px 0 40px;
+}
+
+.footer-title{
+    padding: 0 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    color: $lightBlack;
+}
+
+.footer-link{
+    display: block;
+    padding: 10px 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: $lightGray;
+}
+
+.footer-bot{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer-info{
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.footer-about{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: lighten($black, 80%);
+}
+
+.footer-contacts{
+    display: flex;
+}

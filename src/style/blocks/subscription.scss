@@ -1,0 +1,49 @@
+.subscription{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.subscription-title{
+    color: $lightBlack;
+
+    margin: 100px 0 30px;
+
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.subscription-text{
+    padding: 0 300px 30px;
+
+    color: $lightGray;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.subscription-input{
+    margin: 0 auto;
+    width: 45%;
+    border-radius: 20px;
+    border: 1px solid $lightGray;
+}
+
+.subscription-form{
+    display: flex;
+    align-items: flex-end;
+}
+
+.subscription-textarea{
+    padding: 5px 10px 0;
+    display: block;
+    flex-grow: 1;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+
+    border: none;
+    background: transparent;
+    resize: none;
+
+    font-family: inherit;
+    font-size: 16px;
+}
