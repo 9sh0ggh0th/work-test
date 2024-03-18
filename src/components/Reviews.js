@@ -4,6 +4,7 @@ import '@splidejs/react-splide/css/sea-green';
 
 
 const Reviews = () => {
+    // Генератор постов с товарами
     function generateSlides( length = 10) {
         return Array.from( { length } ).map( ( value, index ) => {
           return {
@@ -23,13 +24,11 @@ const Reviews = () => {
                         >
                             <span>01 / 03</span>
                             <img
-                                // onClick={}
                                 className="pagination-arrow"
                                 src="/img/products/arrowL.svg"
                                 alt=""
                             />
                             <img
-                                // onClick={}
                                 className="pagination-arrow"
                                 src="/img/products/arrowR.svg"
                                 alt=""
@@ -39,6 +38,7 @@ const Reviews = () => {
                 </div>
 
                 <div className="reviews-panel">
+                    {/* Создание слайдера */}
                     <Splide
                         options={{
                             perPage: 4,
@@ -48,6 +48,7 @@ const Reviews = () => {
                         }}
                         aria-labelledby="carousel-heading"
                     >
+                        {/* Создание поста с отзывом */}
                         {generateSlides().map( slide => (
                             <SplideSlide key={ slide.src } className="reviews-post">
                                 <div className="reviews-post-header">

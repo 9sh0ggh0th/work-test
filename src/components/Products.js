@@ -4,6 +4,7 @@ import '@splidejs/react-splide/css';
 
 
 const Products = () => {
+    // Генератор постов с товарами
     function generateSlides( length = 3) {
         return Array.from( { length } ).map( ( value, index ) => {
           return {
@@ -23,13 +24,11 @@ const Products = () => {
                             >
                                 <span>01 / 03</span>
                                 <img
-                                    // onClick={}
                                     className="pagination-arrow"
                                     src="/img/products/arrowL.svg"
                                     alt=""
                                 />
                                 <img
-                                    // onClick={}
                                     className="pagination-arrow"
                                     src="/img/products/arrowR.svg"
                                     alt=""
@@ -39,6 +38,7 @@ const Products = () => {
                     </div>
 
                     <div className="products-panel">
+                        {/* Создание слайдера */}
                     <Splide
                         options={{
                             perPage: 3,
@@ -48,6 +48,7 @@ const Products = () => {
                         }}
                         aria-labelledby="carousel-heading"
                     >
+                        {/* Ниже приведены шаблоны для создания постов с товарами с помощью функции */}
                         {generateSlides().map( slide => (
                             <SplideSlide key={ slide.src } className="products-post">
                                 <button className="products-like">
